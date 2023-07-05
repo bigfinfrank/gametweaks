@@ -8,7 +8,7 @@
 - unhide in-game graphics options
 - increase graphics quality (past what is normally possible via in-game setings
 
-**Entering the video/graphics settings menu will always prompt you to save changes. if you hit save changes (whether or not *you* made any changes), it'll undo some of the config.ini tweaks.**
+**Entering the advanced tab in your graphics options menu will always prompt you to save changes. if you hit save changes (whether or not *you* made any changes), it'll undo some of the config.ini tweaks**
 
 `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\players\config.ini`
 
