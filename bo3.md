@@ -227,3 +227,15 @@ replace or add `bind l fast_restart` and `bind p map_restart` to both of the fol
 ## T7patch (RCE, remote crash, A.B.C error and FPS bug fixes ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2924410249))
 
 "A new and improved community patch for a large list of Black Ops III exploits.", can be found in this repo: https://github.com/shiversoftdev/t7patch
+
+## missing assets/errors in custom maps that should otherwise be there
+
+1. open your steam library
+2. click the search bar
+3. type in "black ops iii"
+4. install normal black ops iii, the mod tools, remote console, unranked dedicated server
+5. (optionally, or if you're still having issues) right click mod tools in the steam library search
+6. hit properties
+7. go to the dlc tab on the left
+8. check the additional assets dlc
+9. wait for the 97gb of assets (which your map probably only uses 2mb of) to download
