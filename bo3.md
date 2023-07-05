@@ -219,7 +219,7 @@ rename (ex. prefix with `_` or append `.bak`) or delete the following files in `
 
 fast_restart for quickly restarting maps that aren't super custom, map_restart for restarting (mostly custom maps) that break when using fast_restart, disconnect to keep gobblegums without alt+f4/task manager-ing the game.
 
-replace or add `bind l fast_restart` and `bind p map_restart` to both of the following files:
+replace or add `bind SEMICOLON "disconnect"`, `bind [ "fast_restart"` and `bind ] "map_restart"` to both of the following files:
 
 - `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\players\bindings_0.cfg`
 - `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\players\bindings_1.cfg`
