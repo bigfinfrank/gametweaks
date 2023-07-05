@@ -224,9 +224,11 @@ replace or add `bind l fast_restart` and `bind p map_restart` to both of the fol
 - `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\players\bindings_0.cfg`
 - `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\players\bindings_1.cfg`
 
+then mark them as read only (right click -> properties -> read-only)
+
 ## T7patch (RCE, remote crash, A.B.C error and FPS bug fixes ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2924410249))
 
-"A new and improved community patch for a large list of Black Ops III exploits.", can be found in this repo: https://github.com/shiversoftdev/t7patch
+"A new and improved community patch for a large list of Black Ops III exploits.", can be found in this repo: https://github.com/shiversoftdev/t7patch.
 
 ## missing assets/errors in custom maps that should otherwise be there
 
@@ -239,3 +241,24 @@ replace or add `bind l fast_restart` and `bind p map_restart` to both of the fol
 7. go to the dlc tab on the left
 8. check the additional assets dlc
 9. wait for the 97gb of assets (which your map probably only uses 2mb of) to download
+
+## when streaming
+
+options -> content filter -> disable both graphic content and user generated content.
+
+options -> chat -> voice chat volume (NOT voice chat record level) = 0.00
+
+options -> chat -> uncheck voice chat box
+
+options -> chat -> check push to talk box
+
+options -> chat -> turn on mute all except party
+
+options -> controls -> interact -> unbind voice chat
+
+## mic volume changing every time black ops 3 starts
+
+for some ungodly reason treyarch made the Voice Chat Record level slider change your windows microphone volume.
+
+
+options -> chat -> adjust voice chat record level to wherever you want it, and never touch this setting again.
