@@ -260,5 +260,10 @@ options -> controls -> interact -> unbind voice chat
 
 for some ungodly reason treyarch made the Voice Chat Record level slider change your windows microphone volume.
 
-
 options -> chat -> adjust voice chat record level to wherever you want it, and never touch this setting again.
+
+## 8. party settings best practices
+
+unless you're *actively* trying to invite someone, keep your (social -> manage party) party privacy set to Closed with player limit set to 1 (or however many people are currently in your party).
+
+when *you are actively* trying to invite someone, bump up your player limit by 1 and set it to friends only.
