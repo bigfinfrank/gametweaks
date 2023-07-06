@@ -1,6 +1,6 @@
 # Black Ops 3 Game Tweaks
 
-## config.ini
+## 1. config.ini
 
 - disable fps limit
 - disable vram limit
@@ -197,7 +197,7 @@ ShowPerformanceGraph = "0" // 0 to 16
 StreamMinResident = "0" // 0 or 1
 ```
 
-## delete loading movies ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=557719129))
+## 2. delete loading movies ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=557719129))
 
 this will reduce loading times substantially, most of these are the solo-only zombies intro cutscenes (ex. the "hey you~" shadows of evil video)
 
@@ -215,7 +215,7 @@ rename (ex. prefix with `_` or append `.bak`) or delete the following files in `
 - `zm_tomb_loadingmovie.mkv` origins
 - `zm_zod_load_zodloadingmovie.mkv` shadows of evil
 
-## fast_restart, map_restart & disconnect binds ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1122433143))
+## 3. fast_restart, map_restart & disconnect binds ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1122433143))
 
 fast_restart for quickly restarting maps that aren't super custom, map_restart for restarting (mostly custom maps) that break when using fast_restart, disconnect to keep gobblegums without alt+f4/task manager-ing the game.
 
@@ -226,11 +226,11 @@ replace or add `bind SEMICOLON "disconnect"`, `bind [ "fast_restart"` and `bind 
 
 then mark them as read only (right click -> properties -> read-only)
 
-## T7patch (RCE, remote crash, A.B.C error and FPS bug fixes ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2924410249))
+## 4. T7patch (RCE, remote crash, A.B.C error and FPS bug fixes ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2924410249))
 
 "A new and improved community patch for a large list of Black Ops III exploits.", can be found in this repo: https://github.com/shiversoftdev/t7patch.
 
-## missing assets/errors in custom maps that should otherwise be there
+## 5. missing assets/errors in custom maps that should otherwise be there
 
 1. open your steam library
 2. click the search bar
@@ -242,7 +242,7 @@ then mark them as read only (right click -> properties -> read-only)
 8. check the additional assets dlc
 9. wait for the 97gb of assets (which your map probably only uses 2mb of) to download
 
-## when streaming
+## 6. for streaming / potential exploit mitigation
 
 options -> content filter -> disable both graphic content and user generated content.
 
@@ -256,7 +256,7 @@ options -> chat -> turn on mute all except party
 
 options -> controls -> interact -> unbind voice chat
 
-## mic volume changing every time black ops 3 starts
+## 7. mic volume changing every time black ops 3 starts
 
 for some ungodly reason treyarch made the Voice Chat Record level slider change your windows microphone volume.
 
