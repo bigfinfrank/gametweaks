@@ -1,8 +1,8 @@
-# Black Ops 3 Game Tweaks
+# Bloons Tower Defense 5 Game Tweaks
 
-## 1. whats-coming-what-round sidebars cheat sheet
+## 1. Whats-coming-what-round sidebars cheat sheet
 
-take `in_game_edges.png` and replace the existing version at `G:\SteamLibrary\steamapps\common\BloonsTD5\Assets\Textures\Ultra\in_game_edges.png`
+Download [in_game_edges.png](https://github.com/bigfinfrank/gametweaks/blob/main/btd5/in_game_edges.png) and use it to replace the one at `C:\Program Files (x86)\steamapps\common\BloonsTD5\Assets\Textures\Ultra\in_game_edges.png`
 
 ## 2. Borderless Windowed instead of Exclusive Fullscreen
 
