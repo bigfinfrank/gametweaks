@@ -1,22 +1,27 @@
 # Black Ops 3 Game Tweaks
 
-## 1. config.ini
+## 1. Picking a config.ini
 
-- disables fps limit
-- disables vram limit
-- minimizes input latency
-- unhides in-game graphics options
-- increases graphics quality (past what is possible via in-game setings, even the hidden ones)
+There are two options, custom and ultra.
 
-**Entering the advanced tab in your graphics options menu will always prompt you to save changes. if you hit save changes (whether or not *you* made any changes), it'll undo some of the config.ini tweaks**
+Both of them:
+- Disable the vram limit
+- Minimize input latency
+- Unhide in-game graphics options
 
-Download [config.ini](https://github.com/bigfinfrank/gametweaks/blob/main/bo3/config.ini) and use it to replace the one at `C:\Program Files (x86)\steamapps\common\Call of Duty Black Ops III\players\config.ini`
+The differences are:
+- **Ultra** increases graphics quality (past what is possible via in-game setings, even the hidden ones), to the max possible without modding.
+- **Custom** is my balanced one with a happy middle ground of settings, some of which are specific to my setup (e.g. fps cap, vsync, etc), so you'll want to look it over before using it and change some stuff.
 
-## 2. delete loading movies ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=557719129))
+Download [config-custom.ini](https://github.com/bigfinfrank/gametweaks/blob/main/bo3/config-custom.ini) or [config-ultra.ini](https://github.com/bigfinfrank/gametweaks/blob/main/bo3/config-ultra.ini) and use it to replace `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\players\config.ini`, make sure you rename whichever you choose to `config.ini`! Then mark them as read only (right click -> properties -> read-only) so the game can't overwrite them and remove your custom values.
 
-this will reduce loading times substantially, most of these are the solo-only zombies intro cutscenes (ex. the "hey you~" shadows of evil video)
+**Entering the advanced tab in your graphics options menu will always prompt you to save changes. if you hit save changes (whether or not *you* made any changes), it'll undo some of the config.ini tweaks until you restart (or permanently, if you didn't set the file read only).**
 
-rename (ex. prefix with `_` or append `.bak`) or delete the following files in `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\video`:
+## 2. Delete loading movies ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=557719129))
+
+This will reduce loading times substantially, most of these are the solo-only zombies intro cutscenes (ex. the "hey you~" shadows of evil video), but this will also get rid of the blue forest video that shows when leaving a zombie match as well as the game's startup intro video.
+
+Rename (ex. prefix with `_` or append `.bak`) or delete the following files in `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\video`:
 
 - `bo3_global_logo_logosequence.mkv` - game startup intro - deleting this will make the game window entirely black until the main menu loads
 - `zm_castle_loadingmovie.mkv` - der eiesendrache
@@ -32,14 +37,14 @@ rename (ex. prefix with `_` or append `.bak`) or delete the following files in `
 
 ## 3. fast_restart, map_restart & disconnect binds ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1122433143))
 
-fast_restart for quickly restarting maps that aren't super custom, map_restart for restarting (mostly custom maps) that break when using fast_restart, disconnect to keep gobblegums without alt+f4/task manager-ing the game.
+fast_restart for quickly restarting most maps, map_restart for restarting (some custom) maps that break when using fast_restart, disconnect to keep gobblegums without alt+f4/task manager-ing the game, killserver to end the current match.
 
-replace or add `bind SEMICOLON "disconnect"`, `bind [ "fast_restart"` and `bind ] "map_restart"` to both of the following files:
+Either use the out of the box [bindings_0.cfg](https://github.com/bigfinfrank/gametweaks/blob/main/bo3/bindings_0.cfg) and [bindings_1.cfg](https://github.com/bigfinfrank/gametweaks/blob/main/bo3/bindings_1.cfg) files or add `bind SEMICOLON "disconnect"`, `bind [ "fast_restart"` and `bind ] "map_restart"` to both of the following files:
 
 - `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\players\bindings_0.cfg`
 - `G:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\players\bindings_1.cfg`
 
-then mark them as read only (right click -> properties -> read-only)
+Then mark them as read only (right click -> properties -> read-only)
 
 ## 4. T7patch (RCE, remote crash, A.B.C error and FPS bug fixes ([steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2924410249))
 
@@ -83,4 +88,4 @@ options -> chat -> adjust voice chat record level to wherever you want it, and n
 
 unless you're *actively* trying to invite someone, keep your (social -> manage party) party privacy set to Closed with player limit set to 1 (or however many people are currently in your party).
 
-when *you are actively* trying to invite someone, bump up your player limit by 1 and set it to friends only.
+when you are *actively* trying to invite someone, bump up your player limit by 1 and set it to friends only, allowing one friend to join at a time.

@@ -8,10 +8,10 @@ These are tweaks for the steam client itself, not any specific game, but they al
 Replace the target in all `Steam.lnk`s (shortcuts) with the following:
 
 ```cmd
-"C:\Program Files (x86)\Steam\steam.exe" -console --debugbutton -dev -fulldesktopres -offlinemode --showallbetas -silent -testbutton
+"C:\Program Files (x86)\Steam\steam.exe" -console -dev -fulldesktopres -offlinemode --showallbetas -silent -testbutton
 ```
 
-These are all mostly self explanatory, but you can see xPaw (the SteamDB Creator)'s dump of steam commands [here](https://gist.github.com/xPaw/fe7d275d31da14d70481) which includes some more info.
+These are all mostly self explanatory, but you can see xPaw's dump of steam commands [here](https://gist.github.com/xPaw/fe7d275d31da14d70481) which includes some more info.
 
 
 ## 2. π🐀
@@ -21,8 +21,7 @@ I have multiple accounts. I have family sharing on between those accounts. Some 
 [Yar har, fiddle de dee
 Being a pirate is alright to be
 Do what you want 'cause a pirate is free
-You are a pirate!](https://github.com/acidicoala/Koalageddon2)
-
+You are a pirate!](https://github.com/pointfeev/CreamInstaller)
 
 ## 3. Adding all free DLCs for your owned games to your account
 
@@ -41,7 +40,7 @@ Obviously you can check third party grey-market sites like G2A for Steam keys wh
 
 It's arguably against Steam ToS and might be considered tax evasion in certain jurisdictions, but realistically Steam doesn't enforce it past prevention and your government likely wouldn't find out and if they did, because of how significantly cheaper (typically 50-95%) games are, even on a [$1000 bundle](https://steamdb.info/bundle/6465) you'll only be paying tax on $50 which comes out to less than a dollar. You'll be able to afford to just pay them what you owe.
 
-I have a secreted gist with instructions on how to make a fresh account with the region locked, but the concept is very similar for changing the region of your primary account if you don't want to mess around with family sharing. You can find the gist [here](https://gist.github.com/bigfinfrank/363d5730f52f5f7483c1774ffdeb5742), for changing the region you'll need to do step 2 and then steps 8 onward, the rest won't really apply. 
+I have a secreted gist with instructions on how to make a fresh account with the region locked, but the concept is very similar for changing the region of your primary account if you don't want to mess around with family sharing. You can find the gist [here](https://gist.github.com/bigfinfrank/363d5730f52f5f7483c1774ffdeb5742), for changing the region you'll need to do step 2 and then steps 8 onward, the rest won't really apply.
 
 
 ## 5. Steam Account security & Safety
