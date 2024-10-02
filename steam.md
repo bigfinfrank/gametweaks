@@ -7,7 +7,7 @@ These are tweaks for the steam client itself, not any specific game, but they al
 Replace the target in all `Steam.lnk`s (shortcuts) with the following:
 
 ```cmd
-"C:\Program Files (x86)\Steam\steam.exe" -console -dev -fulldesktopres -offlinemode --showallbetas -silent -testbutton
+"C:\Program Files (x86)\Steam\steam.exe" -console -dev -fulldesktopres -offlinemode --showallbetas -silent +open steam://open/minigameslist
 ```
 
 Most of these are self explanatory, but you can see xPaw's dump of steam commands [here](https://gist.github.com/xPaw/fe7d275d31da14d70481) which includes some more info.
